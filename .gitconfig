@@ -1,0 +1,16 @@
+[user]
+	name = Dennis Stritzke
+	email = dennis@stritzke.me
+
+[core]
+	excludesfile = /Users/dennisstritzke/.gitignore_global
+	autocrlf = input
+	safecrlf = true
+
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) | %C(white)%s%C(reset)%d [%an]' --graph --date=short
+
